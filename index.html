@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+     crossorigin="anonymous" 
+     referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- weather search bar -->
+<section class="container">
+<div class="weather-header">   
+<form class="weather-search">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input type="text" class="city-name" placeholder="Search the city..."/>
+</form>
+</div>
+
+
+
+</div>
+
+
+<!-- weather main data -->
+ <div class="weather-body">
+    <h1 class="weather-city"></h1>
+        <p class="weather-date--time"></p>
+        <div class="weather-data">
+            <p class="weather-forecast"></p>
+            <div class="weather-icon"></div>
+        </div>
+        <p class="weather-temperature"></p>
+        <div class="weather-min--max">
+            <p class="weather-min"></p>
+            <p class="weather-max"></p>
+        </div>
+ </div>
+ <!-- weather extra data -->
+  <section class="weather-info">
+    <div class="weather-card">
+        <i class="fa-solid fa-temperature-three-quarters"></i>
+        <p >Feels Like
+            <br>
+       <span class="feel-like--temp"></span> </p>
+    </div>
+    <div class="weather-card">
+        <i class="fa-solid fa-droplet"></i>
+        <p>Humidity
+            <br>
+            <span class="feel-like--humid"></span> </p>
+    </div>
+    <div class="weather-card">
+        <i class="fa-solid fa-wind"></i>
+        <p>Wind
+            <br>
+            <span class="feel-like--wind"></span> </p>
+    </div>
+    <div class="weather-card">
+        <i class="fa-solid fa-gauge-high"></i>
+        <p>Pressure
+            <br>
+            <span class="feel-like--pressure"></span> </p>
+    </div>
+  </section>
+
+</section>
+
+
+
+
+<script src="script.js"></script>
+    
+</body>
+</html>
